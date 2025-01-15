@@ -1,0 +1,147 @@
+@-moz-document domain(studium.umontreal.ca) {
+	:root {
+		--color-catppuccin-base: #1e1e2e;
+		--color-catppuccin-text: #cdd6f4;
+
+		--color-catppuccin-surface1: #45475a;
+		--color-catppuccin-overlay1: #7f849c;
+
+		--color-catppuccin-crust: #11111b;
+
+		--color-catppuccin-pink: #f5c2e7;
+
+		color: var(--color-catppuccin-text) !important;
+	}
+
+	.navbar {
+		background-color: var(--color-catppuccin-crust) !important;
+		color: var(--color-catppuccin-text) !important;
+		border-color: var(--color-catppuccin-pink) !important;
+	}
+
+	a:is(.active) {
+		color: var(--color-catppuccin-pink) !important;
+	}
+
+	.nav-link {
+		color: var(--color-catppuccin-text) !important;
+	}
+
+	.card-body {
+		background-color: var(--color-catppuccin-base) !important;
+		border-color: var(--color-catppuccin-overlay1) !important;
+	}
+
+	.theme {
+		background-color: var(--color-catppuccin-base) !important;
+	}
+
+	.main-inner {
+		color: var(--color-catppuccin-text) !important;
+		background-color: var(--color-catppuccin-base) !important;
+	}
+
+	h1 {
+		color: var(--color-catppuccin-text) !important;
+	}
+
+	h2 {
+		color: var(--color-catppuccin-text) !important;
+	}
+
+	h3 {
+		color: var(--color-catppuccin-text) !important;
+		/* background-color: var(--color-catppuccin-crust) !important; */
+	}
+	h4 {
+		color: var(--color-catppuccin-text) !important;
+	}
+	h5 {
+		color: var(--color-catppuccin-text) !important;
+	}
+	h6 {
+		color: var(--color-catppuccin-text) !important;
+	}
+
+	.popover-region-container {
+		color: var(--color-catppuccin-text) !important;
+		background-color: var(--color-catppuccin-base) !important;
+	}
+
+	.nav {
+		color: var(--color-catppuccin-text) !important;
+		background-color: var(--color-catppuccin-crust) !important;
+	}
+
+	.moremenu:not(.nav-link) {
+		color: var(--color-catppuccin-text) !important;
+		background-color: var(--color-catppuccin-crust) !important;
+	}
+
+	#region-main {
+		background-color: var(--color-catppuccin-base) !important;
+	}
+
+	#page-content {
+		background-color: var(--color-catppuccin-base) !important;
+	}
+
+	input {
+		background-color: var(--color-catppuccin-overlay1) !important;
+		color: var(--color-catppuccin-text) !important;
+	}
+
+	input::placeholder {
+		color: var(--color-catppuccin-text) !important;
+	}
+
+	select {
+		color: var(--color-catppuccin-text) !important;
+		background-color: var(--color-catppuccin-overlay1) !important;
+	}
+
+	p {
+		color: var(--color-catppuccin-text) !important;
+	}
+
+	.card {
+		background-color: var(--color-catppuccin-base) !important;
+	}
+
+	.course-listitem {
+		background-color: var(--color-catppuccin-base) !important;
+	}
+
+	#region-main-box {
+		background-color: var(--color-catppuccin-base) !important;
+	}
+
+	.drawercontent {
+		color: var(--color-catppuccin-text) !important;
+		background-color: var(--color-catppuccin-base) !important;
+	}
+
+	a {
+		color: var(--color-catppuccin-text) !important;
+	}
+
+	span {
+		color: var(--color-catppuccin-text) !important;
+		font-weight: bold;
+	}
+
+	.drawerheader {
+		color: var(--color-catppuccin-text) !important;
+		background-color: var(--color-catppuccin-base) !important;
+	}
+
+	.dropdownitem {
+		color: var(--color-catppuccin-text) !important;
+		background-color: var(--color-catppuccin-base) !important;
+	}
+
+	.dropdown-menu {
+		color: var(--color-catppuccin-text) !important;
+		background-color: var(--color-catppuccin-base) !important;
+	}
+}
